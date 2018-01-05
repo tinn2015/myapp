@@ -3,7 +3,7 @@ import { Provider } from 'redux-zero-x'
 import { BrowserRouter as Router, Link } from 'react-router-dom'
 import { Layout, Menu, Icon } from 'antd'
 import MENULIST from '../util/config' 
-import routes from './routes'
+import routes from '../routes'
 import store from '../store'
 
 const { Header, Content, Footer, Sider } = Layout;
