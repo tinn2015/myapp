@@ -10,8 +10,10 @@ class UserList extends Component <any, any> {
     return (
       <div>
         user list { this.props.count }
+        {/* { this.props.random } */}
         <Button type="primary" onClick={this.props.increment} >increase</Button>
         <Button type="primary" onClick={this.props.decrement}>decrease</Button>
+        {/* <Button type="primary" onClick={this.props.getRandom}>decrease</Button> */}
       </div>
     );
   }
