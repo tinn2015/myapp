@@ -1,5 +1,5 @@
 import  { Store, action } from 'redux-zero-x'
-import { fetchJSONByGet } from '../../util/ajax'
+// import { fetchJSONByGet } from '../../util/fetch'
 
 class CounterStore extends Store {
 
